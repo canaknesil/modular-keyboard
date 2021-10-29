@@ -1120,17 +1120,6 @@ cp19
 Text Label 13800 7950 2    50   ~ 0
 cp20
 $Comp
-L Connector_Generic:Conn_01x19 JL1
-U 1 1 61C22FBA
-P 7850 8150
-F 0 "JL1" H 7768 7025 50  0000 C CNN
-F 1 "Conn_01x19" H 7768 7116 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Horizontal" H 7850 8150 50  0001 C CNN
-F 3 "~" H 7850 8150 50  0001 C CNN
-	1    7850 8150
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x19 JR1
 U 1 1 61C462EE
 P 9400 8150
@@ -2225,4 +2214,15 @@ Wire Wire Line
 	2700 6350 3150 6350
 Wire Wire Line
 	2700 6650 3150 6650
+$Comp
+L Connector_Generic:Conn_01x19 JL1
+U 1 1 61C22FBA
+P 7850 8150
+F 0 "JL1" H 7768 7025 50  0000 C CNN
+F 1 "Conn_01x19" H 7768 7116 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x19_P2.54mm_Horizontal" H 7850 8150 50  0001 C CNN
+F 3 "~" H 7850 8150 50  0001 C CNN
+	1    7850 8150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
